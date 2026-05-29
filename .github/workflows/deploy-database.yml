@@ -2,7 +2,7 @@
 # .github/workflows/deploy-database.yml
 # Repository: insurance-database
 #
-# TRIGGER  : push to main branch (developer commits a migration)
+# TRIGGER  : push to  branch (developer commits a migration)
 # DOES     : spins up MySQL, runs Flyway migrations, validates
 # ON SUCCESS: fires repository_dispatch → insurance-api repo
 #
